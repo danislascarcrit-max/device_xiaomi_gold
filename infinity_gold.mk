@@ -22,10 +22,10 @@ PRODUCT_NAME := infinity_gold
 PRODUCT_DEVICE := gold
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 2312DRAABG
+PRODUCT_MODEL := Redmi Note 13 5G
 
 # Maintainer Name
-INFINITY_MAINTAINER := "Gun4sure"
+INFINITY_MAINTAINER := "Asnalstan"
 
 # Whether the device supports Fingerprint On Display
 TARGET_HAS_UDFPS := false
