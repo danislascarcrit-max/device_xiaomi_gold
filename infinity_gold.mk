@@ -22,7 +22,7 @@ PRODUCT_NAME := infinity_gold
 PRODUCT_DEVICE := gold
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 13 5G
+PRODUCT_MODEL := 2312DRAABG
 
 # Maintainer Name
 INFINITY_MAINTAINER := "Asnalstan"
