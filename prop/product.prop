@@ -1,0 +1,34 @@
+# Enable blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
+# Bluetooth
+bluetooth.profile.asha.central.enabled=true
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.bas.client.enabled=true
+bluetooth.profile.gatt.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.opp.enabled=true
+bluetooth.profile.pan.nap.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+
+# Device specific properties
+import /product/etc/sku/${ro.boot.product.hardware.sku}.prop
+
+# FM radio: MT6631 (chip id 0x6631), 87.5-108 MHz in 100 kHz steps
+ro.fm.chip=26161
+ro.fm.band=1
+ro.fm.low_band=875
+ro.fm.high_band=1080
+ro.fm.seek_space=1
+
+# IMS: AOSP carries no VoLTE, video call or Wi-Fi calling availability for the mainland
+# carriers, so say they are available and leave the decision to the network.
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Updates: the list of published builds
+lineage.updater.uri=https://raw.githubusercontent.com/Star-caorui/lineageos-gold/main/updates/{incr}.json

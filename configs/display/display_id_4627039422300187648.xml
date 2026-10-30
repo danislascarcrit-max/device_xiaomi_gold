@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.001709819</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>0.49975574</value>
+            <nits>500.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>1000.0</nits>
+        </point>
+    </screenBrightnessMap>
+
+    <!-- Cap the panel at its normal brightness ceiling at critical temperature. -->
+    <thermalThrottling>
+        <brightnessThrottlingMap>
+            <brightnessThrottlingPoint>
+                <thermalStatus>critical</thermalStatus>
+                <brightness>0.498898948</brightness>
+            </brightnessThrottlingPoint>
+        </brightnessThrottlingMap>
+    </thermalThrottling>
+
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.49975574</transitionPoint>
+        <minimumLux>6001</minimumLux>
+        <!-- No limit on how long high brightness may stay on. Not zeros: with a zero
+             budget the framework reschedules its check every millisecond for as long
+             as the brightness is in the high range. -->
+        <timing>
+            <timeWindowSecs>86400</timeWindowSecs>
+            <timeMaxSecs>86400</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
+        </timing>
+        <allowInLowPowerMode>true</allowInLowPowerMode>
+        <minimumHdrPercentOfScreen>0</minimumHdrPercentOfScreen>
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>2.25</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>1000.0</sdrNits>
+                <hdrRatio>2.25</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
+    </highBrightnessMode>
+</displayConfiguration>

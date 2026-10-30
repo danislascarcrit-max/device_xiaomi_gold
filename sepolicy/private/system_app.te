@@ -1,0 +1,2 @@
+# Let Settings (system_app) read the market name for the About page.
+get_prop(system_app, system_gold_marketname_prop)
