@@ -1,0 +1,29 @@
+{
+  "Attributes": [],
+  "Profiles": [
+    {
+      "Name": "PreferIdleSet",
+      "Actions": [
+        {
+          "Name": "SetTimerSlack",
+          "Params": {
+            "Slack": "50000"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "SCHED_QOS_SENSITIVE_STANDARD",
+      "Actions": []
+    },
+    {
+      "Name": "SCHED_QOS_SENSITIVE_EXTREME",
+      "Actions": []
+    },
+    {
+      "Name": "SCHED_QOS_NONE",
+      "Actions": []
+    }
+  ],
+  "AggregateProfiles": []
+}

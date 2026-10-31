@@ -1,0 +1,27 @@
+# Redmi Note 13R Pro (China)
+ro.product.brand=Redmi
+ro.product.device=gold
+ro.product.manufacturer=Xiaomi
+ro.product.model=2311FRAFDC
+ro.product.name=gold_a
+ro.product.marketname=Redmi Note 13R Pro
+ro.product.board=gold
+ro.product.vendor.brand=Redmi
+ro.product.vendor.device=gold
+ro.product.vendor.manufacturer=Xiaomi
+ro.product.vendor.model=2311FRAFDC
+ro.product.vendor.cert=2311FRAFDC
+ro.product.vendor.name=gold_a
+ro.product.vendor.marketname=Redmi Note 13R Pro
+ro.product.odm.brand=Redmi
+ro.product.odm.device=gold
+ro.product.odm.manufacturer=Xiaomi
+ro.product.odm.model=2311FRAFDC
+ro.product.odm.cert=2311FRAFDC
+ro.product.odm.name=gold_a
+ro.product.odm.marketname=Redmi Note 13R Pro
+
+# Stock's build fingerprint for this unit, as its /vendor/build_gold_a_cn.prop and /odm/etc/build_gold_a_cn.prop give it
+ro.build.fingerprint=Redmi/gold_a/gold:15/AP3A.240905.015.A2/OS3.0.5.0.VNQMIXM:user/release-keys
+ro.odm.build.fingerprint=Redmi/gold_a/gold:15/AP3A.240905.015.A2/OS3.0.5.0.VNQMIXM:user/release-keys
+ro.vendor.build.fingerprint=Redmi/gold_a/gold:15/AP3A.240905.015.A2/OS3.0.5.0.VNQMIXM:user/release-keys
