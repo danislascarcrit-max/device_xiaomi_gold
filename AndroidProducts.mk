@@ -1,2 +1,8 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_gold.mk
+    $(LOCAL_DIR)/custom_gold.mk \
+    $(LOCAL_DIR)/lineage_gold.mk

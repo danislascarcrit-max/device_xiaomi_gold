@@ -37,9 +37,3 @@ ro.fm.seek_space=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-
-# BEGIN MIUI Camera props
-# Properti kamera dari modul Leica (bagian product)
-# Di-append otomatis oleh install.sh ke device/xiaomi/gold/prop/product.prop
-ro.com.google.lens.oem_camera_package=com.android.camera
-# END MIUI Camera props

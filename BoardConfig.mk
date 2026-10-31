@@ -187,7 +187,7 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # Reserve space for gapps
-include vendor/infinity/config/BoardConfigReservedSize.mk
+include vendor/lineage/config/BoardConfigReservedSize.mk
 
 # Verified Boot
 AB_OTA_PARTITIONS += \
@@ -223,7 +223,3 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 4
 
 # Inherit the proprietary files
 include vendor/xiaomi/gold/BoardConfigVendor.mk
-
-# Lib MIUI prebuilt disalin via PRODUCT_COPY_FILES
-BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-TARGET_SYSTEM_PROP += device/xiaomi/gold/system.prop
